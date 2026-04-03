@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Cesium Demo</title>
+	<link href="/cesium/Widgets/widgets.css" rel="stylesheet" />
+	<style>
+		html,
+		body,
+		#cesiumContainer {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="cesiumContainer"></div>
+	<script type="module" src="/src/main.ts"></script>
+	<input type="range" min="1" max="100" value="16" id="lodSlider"
+		style="position:absolute; top:10px; left:10px;" />
+</body>
+
+</html>
